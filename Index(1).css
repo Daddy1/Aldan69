@@ -1,0 +1,153 @@
+
+.UhhhIhaveaproblem{
+
+-webkit-animation: cssAnimation8 5s 16 ease-in;
+
+-moz-animation: cssAnimation8 5s 16 ease-in;
+
+-o-animation: cssAnimation8 5s 16 ease-in;
+
+}
+
+#myDIV {
+    width: 300px;
+    color: red;
+    -webkit-animation: mymove 2s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 2s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    65% {color: blue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    65% {color: blue;}
+}
+
+
+
+
+h1 {
+
+text-shadow: 2px 2px 5px red;
+
+}
+
+
+h3 {
+
+text-shadow: 2px 2px #FFFF00;
+
+}
+h5 {
+text-shadow: 2px 2px 5px green;}
+
+
+
+h6 {
+
+text-shadow: 2px 2px #FF1493;
+
+}
+
+img {border-radius: 30px; // partially rounded corners}
+
+img {border-radius: 100%; // full circular image}
+
+
+
+
+
+h4  {
+
+
+
+text-shadow: 2px 2px #00FFFF;
+
+}
+
+
+
+h2 {
+
+text-shadow: 2px 2px 5px blue;
+
+}
+
+
+
+
+@-webkit-keyframes cssAnimation8 {
+
+from { -webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+
+to { -webkit-transform: rotate(4deg) scale(1.291) skew(1deg) translate(300px); }
+
+}
+
+@-moz-keyframes cssAnimation8 {
+
+from { -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+
+to { -moz-transform: rotate(4deg) scale(1.291) skew(1deg) translate(300px); }
+
+}
+
+@-o-keyframes cssAnimation8 {
+
+from { -o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+
+to { -o-transform: rotate(4deg) scale(1.291) skew(1deg) translate(300px); }
+
+}
+
+
+.dropbtn {
+    background-color: #00FFFF
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color:  #00FFFF}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:  #00AAFF;
+}
+
+
+.foooter{
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
